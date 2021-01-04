@@ -16,12 +16,11 @@
   display: flex;
 }
 
-.about__list-item:not(:last-child) {
-  margin-right: 30px;
-}
-
 .about__list-item {
   position: relative;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .about__thumb {

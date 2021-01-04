@@ -25,18 +25,18 @@
   border: 1px solid #afb1b8;
   border-radius: 4px;
   transition: var(--timing-fn);
+
+  &:hover {
+    border-color: var(--accent-color);
+  }
+
+  &:hover .clients__item-icon,
+  &:focus .clients__item-icon {
+    fill: var(--accent-color);
+  }
 }
 
 .clients__item-icon {
   fill: #afb1b8;
   transition: var(--timing-fn);
-}
-
-.clients__item-link:hover {
-  border-color: var(--accent-color);
-}
-
-.clients__item-link:hover .clients__item-icon,
-.clients__item-link:focus .clients__item-icon {
-  fill: var(--accent-color);
 }

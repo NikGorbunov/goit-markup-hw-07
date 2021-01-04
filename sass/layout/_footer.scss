@@ -73,6 +73,11 @@
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   transition: var(--timing-fn);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }
 
 .footer__social-icon {
@@ -83,11 +88,6 @@
 
 .footer__social-item:not(:last-child) {
   margin-right: 10px;
-}
-
-.footer__social-link:hover,
-.footer__social-link:focus {
-  background-color: var(--accent-color);
 }
 
 .footer__box--right:not(:last-child) {
